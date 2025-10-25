@@ -1,5 +1,5 @@
 /*  your css code here. If applicable */
- body{
+     body{
             margin: 0;
             padding: 0;
             display: flex;
@@ -8,7 +8,8 @@
             align-items: center;
             height: 100vh;
             gap: 20px;
-        }
+         }
+
         
         .container{
             width: 400px;
@@ -27,5 +28,6 @@
             font-size: 40px;
             display: flex;
             justify-content: center;
-           align-items: center;
-        }
+            align-items: center;
+		}
+        
