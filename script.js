@@ -53,7 +53,7 @@ function checkingWinningStatus(){
             }
             if(count==3){
                 
-                   turnMessage.innerText=`${localStorage.getItem("player1")}, congratulations you won!`
+                   turnMessage.innerText=`${localStorage.getItem("player1")} congratulations you won!`
                
               
                
@@ -68,7 +68,7 @@ function checkingWinningStatus(){
             }
             if(count==3){
                
-                   turnMessage.innerText=`${localStorage.getItem("player2")}, congratulations you won!`
+                   turnMessage.innerText=`${localStorage.getItem("player2")} congratulations you won!`
                
               
                
