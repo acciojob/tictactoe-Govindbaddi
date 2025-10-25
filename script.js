@@ -26,12 +26,12 @@ const  player1Selections=[]
             return
         }
         if(playerOneTurn){
-            e.target.innerText="X"
+            e.target.innerText="x"
             turnMessage.innerText=`${localStorage.getItem("player2")}, you're up`
             player1Selections.push(e.target.id)
         }
         else{
-             e.target.innerText="O"
+             e.target.innerText="o"
              turnMessage.innerText=`${localStorage.getItem("player1")}, you're up`
               player2Selections.push(e.target.id)
         }
