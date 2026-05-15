@@ -11,7 +11,7 @@ function startGame(){
       console.log(player1)
       player2 = document.getElementById("player-2").value;
       console.log(player2)
-	document.getElementById("message").innerText =`${player1}`+",you're up";
+	document.getElementByClassName("message").innerText =`${player1}`+",you're up";
 }
 
 
@@ -29,7 +29,7 @@ function play(id) {
   if (checkWinner()) {
     //let winner = currentPlayer === "X" ? player1 : player2;
     let winner = currentPlayer === "X" ? player1 : player2;
-    document.getElementById("message").innerText = `${winner} congratulations you won!`;
+    document.getElementByClassName("message").innerText = `${winner} congratulations you won!`;
     return;
   }
 
