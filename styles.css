@@ -1,18 +1,17 @@
-/*  your css code here. If applicable */
-
-.board{
-	display:grid;
-	grid-template-columns:repeat(3,100px);
-	width:300px;
-	
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  width: 300px;
 }
-.box{
-	width:100px;
-	height:100px;
-	border:1px solid black;
-	background:pink;
-	font-size:40px;
-	display:flex;
-	justify-content:center;
-	align-items:center;
+
+.box {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  background: pink;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
