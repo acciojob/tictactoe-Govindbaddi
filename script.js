@@ -29,7 +29,7 @@ function play(id) {
   if (checkWinner()) {
     //let winner = currentPlayer === "X" ? player1 : player2;
     let winner = currentPlayer === "X" ? player1 : player2;
-    document.getElementById("message").innerText = `${winner}, congratulations you won!`;
+    document.getElementById("message").innerText = `${winner} congratulations you won!`;
     return;
   }
 
