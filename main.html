@@ -10,7 +10,34 @@
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
-
+	<div>
+	<form>
+		<h1>tic toe game</h1>
+		<div>
+		<label>player 1
+		<input placeholder="enter name" type="text" id="player-1"/>
+		</label>
+		</div>
+		<div>
+		<label>player2
+		<input placeholder="enter name" type="text" id="player-2" value=""/>		
+		</label>
+		</div>
+		<button onclick="startGame()">submit<button>
+	</form>
+	</div>
+			<h2 id="message">you're up</h2>
+			<div class="board">
+				<div class="box"  id="1" onclick="play(1)"></div>
+				<div class="box" id="2" onclick="play(2)"></div>
+				<div class="box" id="3" onclick="play(3)"></div>
+				<div class="box" id="4" onclick="play(4)"></div>
+				<div class="box" id="5" onclick="play(5)"></div>
+				<div class="box" id="6" onclick="play(6)"></div>
+				<div class="box" id="7" onclick="play(7)"></div>
+				<div  class="box" id="8" onclick="play(8)"></div>
+				<div class="box" id="9" onclick="play(9)"></div>
+			</div>
 </body>
 
 </html>
